@@ -1,0 +1,122 @@
+:root {
+    --parte1: #e38826;
+    --parte2: #006970;
+    --parte3: #004241;
+
+    --font-titulo: 'Big Shoulders Display', cursive;
+    --font-parrafo: 'Lexend Deca', sans-serif; 
+    
+}
+
+.footer {
+    padding-top: 1rem;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 1.5rem;
+}
+
+.boton {
+    background-color: #fff;
+    font-family: var(--font-parrafo);
+    border-radius: 1.8rem;
+    text-decoration: none;
+    border: none;
+    padding: 1.2rem 3rem;
+    text-align: center;
+}
+
+.boton:hover {
+    border: solid .2rem #fff;
+    color: #fff;
+}
+
+.boton1 {
+    color: var(--parte1);
+}
+
+.boton1:hover {
+    background-color: var(--parte1);
+}
+
+.boton2 {
+    color: var(--parte2);
+}
+
+.boton2:hover {
+    background-color: var(--parte2);
+}
+
+.boton3 {
+    color: var(--parte3);
+}
+
+.boton3:hover {
+    background-color: var(--parte3);
+}
+
+.contenedor-fichas {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.ficha {
+    padding: 6rem 2.8rem;
+}
+
+.ficha-1 {
+    background-color: var(--parte1);    
+}
+
+.ficha-2 {
+    background-color: var(--parte2);
+}
+
+.ficha-3 {
+    background-color: var(--parte3);
+}
+
+.titulo {
+    font-family: var(--font-titulo);
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.parrafo {
+    font-family: var(--font-parrafo);
+    margin-bottom: 5rem;
+}
+
+.texto {
+    color: #fff;
+}
+
+@media (min-width: 580px) {
+    .contenedor-principal {
+        margin: 25rem 30rem 18rem;
+        width: 65%;
+        
+    }
+    .contenedor-fichas {
+        display: flex;
+    }
+
+    .ficha {
+        height: 50rem;
+    }
+
+    .parrafo {
+        margin-bottom: 10rem;
+    }
+
+}
